@@ -61,9 +61,9 @@ let package = Package(
     name: "swift-crypto",
     platforms: [
         .macOS(.v10_15),
-        .iOS(.v13),
+        .iOS(.v12),
         .watchOS(.v6),
-        .tvOS(.v13),
+        .tvOS(.v12),
     ],
     products: [
         .library(name: "Crypto", targets: ["Crypto"]),
